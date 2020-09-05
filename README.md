@@ -1,6 +1,6 @@
 # IaC-Homework
 ## This terraform code creates 1 instance, 1 security group, 1 public subnet, 1 RDS DB-instance; run ansible config on instance installing nginx+php
-## After instance initialization it take some time before ansible finish configuration process (5-7 minutes).
+## After instance initialization it take some time before ansible finishes configuration process (5-7 minutes).
 ### Requirements
 1) Set environment vars - AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
 2) Check terraform.tfvars and change vars of region/AZ/vpc as you need
